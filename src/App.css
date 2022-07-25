@@ -21,3 +21,18 @@
   margin: 10px;
   border-radius: 1px solid grey;
 }
+.Narvbar{
+  background-color: blue;
+  height: 500px;
+display: flex;
+justify-content: center;
+align-items: centers;
+
+}
+.Navbar{
+  background-color: green;
+ align-items: center;
+  display: flex;
+  height: 200px;
+
+}
