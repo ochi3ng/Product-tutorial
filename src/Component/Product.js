@@ -12,8 +12,7 @@ useEffect(()=>{
 }, [Url])
 if(product){
     return(
-        <div>
-            <h1>hello</h1>
+        <div className="header">
      {product.map((item)=><h1><Component item={item}/></h1>)}
     
         </div>
@@ -29,10 +28,10 @@ export default Product
 const Component=(item)=>{
     {console.log(item.item)}
     return(
-        <div>
-        <h1>{item.item.title}</h1>
-        <img src={item.item.image}/>
-        <h2>Ksh.{item.item.price}</h2>
+        <div className="header2">
+        <div className="title">{item.item.title}</div>
+        <img className="Images" src={item.item.image}/>
+        <div className="price">Ksh.{item.item.price}</div>
     </div>
     )
 }
