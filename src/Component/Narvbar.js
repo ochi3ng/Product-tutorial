@@ -5,6 +5,12 @@ return(
         <h1 className="Navbar">
             WELCOME TO OUR SHOP
         </h1>
+        <div className="bar">
+        <div>Home</div>
+        <div>Location</div>
+        <div>About Us</div>
+        <div>Services</div>
+        </div>
     </div>
 )
 }

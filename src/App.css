@@ -13,7 +13,7 @@
 }
 .price{
   font-size: 20px;
-  height: 10px;
+ 
 }
 .header2{
   width: 300px;
@@ -23,16 +23,37 @@
 }
 .Narvbar{
   background-color: blue;
-  height: 500px;
+ 
 display: flex;
-justify-content: center;
-align-items: centers;
-
+align-items: center;
+color: white;
+justify-content: space-between;
+padding-left: 30px;
 }
 .Navbar{
-  background-color: green;
+
  align-items: center;
   display: flex;
-  height: 200px;
+ 
+justify-items: space-between;
 
+}
+.bar{
+  display: flex;
+flex: 1;
+justify-content: space-between;
+padding-right: 30px;
+padding-left: 30px;
+  
+}
+.cartButton{
+  display: flex;
+  justify-content: space-between;
+
+}
+.one{
+  color: grey;
+}
+.two{
+  color:gray;
 }
